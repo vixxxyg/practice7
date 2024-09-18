@@ -10,12 +10,28 @@ body {
 }
 
 input {
-  width: calc(100% - 4px);
+  width: calc(100% - 20px);
+  font-size: 1.2em;
+  margin: 10px;
 }
 
 img {
   width: 100%;
   vertical-align: top;
+}
+ button {
+  width: 100px;
+  height: 30px;
+  border-radius: 6px;
+  background-color: #dc0707;
+  font-size: 1.1em;
+  color: #ffffff;
+  cursor: pointer;
+  margin: 10px;
+ }
+
+span {
+  padding: 10px;
 }
 
 .contenido {
@@ -50,10 +66,16 @@ img {
 .monedas {
     display: flex;
     width: 80px;
-    margin: 2px ;
+    margin: 5px ;
+}
+
+.saldo {
+  align-items: center;
+  text-align: center;
 }
 
 .grande {
-    font-size: 1.5em;
+    font-size: 2em;
+    font-weight: bold;
     color: red;
 }
