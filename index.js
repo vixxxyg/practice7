@@ -42,5 +42,4 @@ function eliminarRojos(){
 
 function vaciar(){
   caja.innerHTML = "";
-//   inicio();
 }
