@@ -9,73 +9,27 @@ body {
   margin: 4px;
 }
 
-input {
-  width: calc(100% - 20px);
-  font-size: 1.2em;
-  margin: 10px;
-}
-
-img {
-  width: 100%;
-  vertical-align: top;
-}
  button {
-  width: 100px;
+  width: 150px;
   height: 30px;
   border-radius: 6px;
-  background-color: #dc0707;
-  font-size: 1.1em;
+  border-style: none;
+  background-color: steelblue;
+  font-size: 0.9em;
   color: #ffffff;
+  outline: none;
   cursor: pointer;
-  margin: 10px;
+  margin: 5px;
+  padding: 5px;
  }
 
-span {
-  padding: 10px;
-}
+ button:hover{
+  cursor: pointer;
+  background-color: rgb(105, 170, 210);
+ }
 
-.contenido {
-  display: flex;
-  flex-wrap: wrap;
-  padding: 7px;
-}
-
-.cuadro {
+ img {
+  width: 100px;
   margin: 5px;
-  width: 50px;
-  height: 50px;
-  border-radius: 50%;
-  text-align: center;
-  align-items: center;
-  line-height: 50px;
-  font-size: 2.2em;
-  color: azure;
-  font-weight: bold;
-}
-
-.rojo {
-  background-color: lightcoral;
-  border: 5px solid tomato;
-}
-
-.verde {
-  background-color: lightseagreen;
-  border: 5px solid teal;
-}
-
-.monedas {
-    display: flex;
-    width: 80px;
-    margin: 5px ;
-}
-
-.saldo {
-  align-items: center;
-  text-align: center;
-}
-
-.grande {
-    font-size: 2em;
-    font-weight: bold;
-    color: red;
+  border-radius: 13px;
 }
