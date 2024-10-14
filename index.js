@@ -1,6 +1,6 @@
 window.onload = inicio;
-let rojo = "./img/cartoon-1298905_640.png";
-let azul = "./img/rocket-7757105_640.png";
+let rojo = "https://vixxxyg.github.io/img/cartoon-1298905_640.png";
+let azul = "https://vixxxyg.github.io/img/rocket-7757105_640.png";
 let caja;
 
 function inicio(){
